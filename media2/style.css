@@ -1,0 +1,158 @@
+:root{
+    --primary-color: #b2b2b2;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 6mm;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.text-box-1{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: var(--primary-color);
+    outline-style: solid;
+}
+
+.text-box-2{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: var(--primary-color);
+    outline-style: solid;
+}
+
+.text-box-3{
+    margin: 0 auto;
+    width: 80%;
+    background-color: var(--primary-color);
+    outline-style: solid;
+}
+
+.text-box-1-item{
+    float: right;
+    outline-style: solid;
+    background-color: #fb658a;
+    width: 15vh;
+    height: 3vh;
+    margin-left: 100%;
+}
+
+.text-box-2-item{
+    float: right;
+    outline-style: solid;
+    background-color: #ff1717;
+    width: 15vh;
+    height: 3vh;
+    margin-left: 100%;
+}
+
+.text-box-3-item{
+    float: right;
+    outline-style: solid;
+    background-color: #f4ff93;
+    width: 15vh;
+    height: 3vh;
+    margin-left: 100%;
+    clear: both;
+}
+
+@media screen and (min-width: 768px){
+
+    header{
+        height: 10vh;
+        width: 100%;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-box-1{
+        margin: 0 auto;
+        width: 30vh;
+        height: 20vh;
+    }
+
+    .text-box-2{
+        margin: 0 auto;
+        width: 30vh;
+        height: 20vh;
+    }
+
+    .text-box-3{
+        margin: 0 auto;
+        width: 63vh;
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+    header{
+        height: 10vh;
+        width: 100%;
+    }
+    
+    .container{
+        display: inline-block;
+    }
+
+    .text-box-1{
+        margin: 10px;
+        width: 30%;
+        height: 10%;
+        float: left;
+    }
+
+    .text-box-2{
+        margin: 10px;
+        width: 30%;
+        height: 10%;
+        float: left;
+    }
+
+    .text-box-3{
+        margin: 10px;
+        width: 30%;
+        height: 10%;
+        float: left;
+    }
+
+
+    .text-box-1-item{
+        width: 6vh;
+        height: 2vh;
+    }
+
+    .text-box-2-item{
+        width: 6vh;
+        height: 2vh;
+    }
+
+    .text-box-3-item{
+        width: 6vh;
+        height: 2vh;
+        clear: both;
+    }
+}
